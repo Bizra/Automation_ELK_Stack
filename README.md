@@ -2,25 +2,25 @@
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/sguarino21/Automated_ELK_Stack_Deployment/blob/main/topology.jpg
+https://github.com/Bizra/Automated_ELK_Stack_Deployment/blob/main/topology.jpg
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the https://github.com/sguarino21/Azure-Peered-Networks.git repository may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the https://github.com/Bizra/Azure-Peered-Networks.git repository may be used to install only certain pieces of it, such as Filebeat.
 
   - List of All Configuration and Playbook files to recreate environment:
   - Note: Edits to configuration and playbook files needed to tailor to your specific network.
   
 
-  - https://github.com/sguarino21/Azure-Peered-Networks/blob/main/ansible_config.yml
-  - https://github.com/sguarino21/Azure-Peered-Networks/blob/main/filebeat-config.yml
-  - https://github.com/sguarino21/Azure-Peered-Networks/blob/main/filebeat-playbook.yml
-  - https://github.com/sguarino21/Azure-Peered-Networks/blob/main/hosts_yml.yaml
-  - https://github.com/sguarino21/Azure-Peered-Networks/blob/main/install-elk.yml
-  - https://github.com/sguarino21/Azure-Peered-Networks/blob/main/metricbeat-config.yml
-  - https://github.com/sguarino21/Azure-Peered-Networks/blob/main/metricbeat-playbook.yml
-  - https://github.com/sguarino21/Azure-Peered-Networks/blob/main/pentest.yml
+  - https://github.com/Bizra/Azure-Peered-Networks/blob/main/ansible_config.yml
+  - https://github.com/Bizra/Azure-Peered-Networks/blob/main/filebeat-config.yml
+  - https://github.com/Bizra/Azure-Peered-Networks/blob/main/filebeat-playbook.yml
+  - https://github.com/Bizra/Azure-Peered-Networks/blob/main/hosts_yml.yaml
+  - https://github.com/Bizra/Azure-Peered-Networks/blob/main/install-elk.yml
+  - https://github.com/Bizra/Azure-Peered-Networks/blob/main/metricbeat-config.yml
+  - https://github.com/Bizra/Azure-Peered-Networks/blob/main/metricbeat-playbook.yml
+  - https://github.com/Bizra/Azure-Peered-Networks/blob/main/pentest.yml
 
 
-  - https://github.com/sguarino21/Azure-Peered-Networks.git
+  - https://github.com/Bizra/Azure-Peered-Networks.git
 
 
 This document contains the following details:
@@ -87,7 +87,7 @@ The 'install-elk.yml' playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-https://github.com/sguarino21/Azure-Peered-Networks/blob/main/Docker_ps_-a_Command.png
+https://github.com/Bizra/Automation_ELK_Stack/blob/main/Docker_ps_-a_Command.png
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
